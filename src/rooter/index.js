@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import Home from '../vue/home.vue'
-import Contact from '../vue/contact.vue'
+import Home from '../vue/Home.vue'
+import Contact from '../vue/Contact.vue'
 
 const routes = [
     { path: '/', name: 'home', component: Home },
