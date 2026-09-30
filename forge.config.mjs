@@ -53,6 +53,23 @@ const config = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+  publishers: [
+    {
+      "name": "@electron-forge/publisher-github",
+      "config": {
+        "repository": {
+          "owner": "BallenghienAlexis",
+          "name": "electron_demo"
+        },
+        "prerelease": false,
+        "draft": true
+      }
+    }
+  ],
+  repository: {
+    type: 'git',
+    url: 'https://github.com/BallenghienAlexis/electron_demo.git'
+  }
 };
 
 export default config;
