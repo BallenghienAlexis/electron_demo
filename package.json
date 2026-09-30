@@ -16,6 +16,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "release": "electron-forge release",
+    "publish": "electron-forge publish",
     "lint": "oxlint && oxfmt --check",
     "lint:fix": "oxlint --fix && oxfmt --write"
   },

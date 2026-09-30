@@ -65,11 +65,7 @@ const config = {
         "draft": true
       }
     }
-  ],
-  repository: {
-    type: 'git',
-    url: 'https://github.com/BallenghienAlexis/electron_demo.git'
-  }
+  ]
 };
 
 export default config;
